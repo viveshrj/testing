@@ -1,0 +1,11 @@
+### Create a new journal entry
+POST http://localhost:5173/journal/create
+Content-Type: application/json
+
+{
+  "content": "Today I learned how to use the journal API!"
+}
+
+### Get all journal entries for the authenticated user
+GET http://localhost:5173/journal/entries
+Content-Type: application/json
